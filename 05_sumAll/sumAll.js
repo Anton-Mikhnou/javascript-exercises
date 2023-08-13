@@ -1,9 +1,15 @@
 const sumAll = function(numberOne, numberTwo) {
     let sum = 0;
-    for (numberOne; numberOne <= numberTwo; numberOne++){
-    sum += numberOne;
+    if (numberOne <= numberTwo){
+        for (numberOne; numberOne <= numberTwo; numberOne++){
+        sum += numberOne;
+        }
+    } else if (numberOne >= numberTwo){
+        for (numberTwo; numberTwo <= numberOne; numberTwo++){
+        sum += numberTwo;
+        }
     }
-    return sum
+    return sum;
 };
 sumAll(123, 1);
 
