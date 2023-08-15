@@ -6,7 +6,7 @@ const sumAll = function(numberOne, numberTwo) {
         return "ERROR";
     }
     else if (i <= j){
-        for (i;i <= j;i++){
+        for (i; i <= j;i++){
         sum += i;
         }
     } else if (i >= j){
