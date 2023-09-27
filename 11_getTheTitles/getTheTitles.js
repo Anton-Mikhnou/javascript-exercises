@@ -11,7 +11,8 @@ const books = [
     author: 'Name2'
     }
 ];
-getTheTitles(books)
+
+
 
 // Do not edit below this line
 module.exports = getTheTitles;
